@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>balony</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="a">
+            <h1>Portal miłośników lotów balonem</h1>
+        </div>
+        <div class="b">
+            <?php
+                echo 'Login: <input type="text" value=""><br/>';
+                echo 'hasło: <input type="password" value="">';
+            ?>
+        </div>
+        <div class="c">
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li><br/>
+                <li><a href="konto.php">Logowanie</a></li><br/>
+                <li><a href="galeria.html">Galeria</a></li><br/>
+                <li><a href="wypadki.html">Wypadki</a></li><br/>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

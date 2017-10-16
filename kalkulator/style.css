@@ -1,0 +1,49 @@
+.kalkulator
+{
+    height: 576px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
+header
+{
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+}
+.wynik
+{
+    height: 150px;
+    width: 300px;
+    background-color: green;
+}
+.przyciski
+{
+    height: 376px;
+    width: 300px;
+    background-color: red;
+}
+.button
+{
+    height: 72px;
+    width: 72px;
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+    font-size: 30px;
+}
+#rowna
+{
+    height: 72px;
+    width: 300px;
+}
+.button:hover
+{
+    background-color: #000050;
+    color: white;
+}

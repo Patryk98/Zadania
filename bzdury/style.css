@@ -1,0 +1,32 @@
+#kontener
+{
+    width: 900px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+}
+*
+{
+    box-sizing: border-box;
+}
+.szpalta
+{
+    width: 33%;
+    display: inline-block;
+    text-align: justify;
+    color: gray;
+}
+@media (max-width: 900px)
+{
+    #kontener
+    {
+        width: 100%;
+    }
+    .szpalta
+    {
+        color: blue;
+        width: 100%;
+        border: 1px dashed #555;
+        margin-top: 5px;
+    }
+}
