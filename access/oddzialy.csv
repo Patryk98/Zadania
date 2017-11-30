@@ -1,0 +1,7 @@
+id_oddzialu;nazwaOddzialu;kierownikId;miastoId
+1;IT;5;2
+2;Accounting;4;NULL
+3;HR;8;2
+4;Marketing;3;1
+5;Kontrola;NULL;3
+6;Magazyn;5;4

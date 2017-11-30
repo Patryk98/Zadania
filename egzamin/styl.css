@@ -1,0 +1,46 @@
+.kontener
+{
+    width: 1000px;
+    height: 800;
+}
+.baner
+{
+    background-color: #0B873D;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+.lewy
+{
+    background-color: #8CE1AE;
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+.center
+{
+    background-color: #5CCB89;
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+.prawy
+{
+    background-color: #1DA956;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+.prawy a
+{
+    color: brown;
+}
+.prawy a:visited
+{
+    color: red;
+}
+.prawy ul
+{
+    margin: 20px;
+    list-style-image: url("auto.png");
+}

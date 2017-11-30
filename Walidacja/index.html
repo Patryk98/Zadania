@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="this.innerHTML = 'klikłeś mnie'">alert</button>
+    <a href="usun.php?akcja=kasuj$id=$idrekordu" onclick="return confirm('Jesteś pewien?')">Usuń rekord</a>
+
+    <!--
+        odbclick "double click"
+        onmousedown "wciśniecie klawisza myszy"
+        onmouseup "zwolnienie klawisza myszy"
+
+        onmouseover "kursor myszki znalazł się w obrębie obiektu"
+        onmouseout "kursor poza obszarem obiektu"
+        onmousemove "kursor myszki został przesunięty"
+
+        Parametry dostępne poprzez obiekt event:
+            clientX, clientY - względe współrzędne kursora myszki
+            screenX, screenY - współrzędne ekranowe(bezwzględne)
+            button - numer klawisza myszki który był użyty
+            altKey - czy klawisz alt jest wciśnięty
+            ctrKey - czy klawisz ctr jest wciśnięty
+            shiftKey - czy klawisz shift jest wciśnięty
+
+        Zdarzenia klawiatury
+            onkeypress - klawisz jest wciśnięty
+            onkeydown - klawisz jest naciśnięty
+            onkeyup - klawisz został zwolniony
+
+        
+    -->
+
+    <script>
+        var klawisz = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode;
+    </script>
+
+    <form action="index.php" method="post" onsubmit="return sprawdzFormularz(this);" onreset="">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.kontener
+{
+    width: 1000px;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.naglowek
+{
+    height: 70px;
+    width: 1000px;
+    float: left;
+}
+.content
+{
+    width: 600px;
+    height: 580px;
+    float: left;
+}
+.menu
+{
+    width: 400px;
+    height: 580px;
+    float: left;
+    background-color: #27ea7f;
+    
+}
+.menu a
+{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+.stopka
+{
+    height: 70px;
+    width: 1000px;
+    float: left;
+    background-color: #5c9718;
+    text-align: center;
+}

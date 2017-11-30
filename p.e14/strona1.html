@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Próbny Egzamin e.14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontener">
+        <div class="naglowek">
+            <a href="index.php"><img src="baner.jpg"></a>
+        </div>
+        <div class="content">
+
+                Liczba1: <input type="number" id="x" value="">
+                Liczba2: <input type="number" id="y" value="">
+                <input type="button" value="Policz" onclick="Policz();"><br>
+                <p id="test"></p>
+
+            <script>
+                function Policz()
+                {
+                    var x = document.getElementById("x").value;
+                    var y = document.getElementById("y").value;
+
+                    if(x>y)
+                    {
+                        var z = x-y-1;
+                        document.getElementById("test").innerHTML = z;
+                    }
+                    else if(y>x)
+                    {
+                        var z = y-x-1;
+                        document.getElementById("test").innerHTML = z;
+                    }
+                    else if(x==y || y==x)
+                    {
+                        var z = 0;
+                        document.getElementById("test").innerHTML = z;
+                    }
+                }
+            </script>
+        </div>
+        <div class="menu">
+            <a href="index.php">Strona Główna</a><br><br>
+            <a href="logowanie.php">Logowanie</a><br><br>
+            <a href="strona1.html">Liczby</a><br>
+        </div>
+        <div class="stopka">
+            <h3>Copyright 2017</h3>
+        </div>
+    </div>
+</body>
+</html>

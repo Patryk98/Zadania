@@ -1,0 +1,3 @@
+W tym zadaniu obsługujemy bazę danych "ksiegarnia" z poziomu PHP. Aby to było możliwe, należy:
+1. Zarejestrować użytkownika z uprawnieniami administratora (w zadaniu jest do "admin" z hasłem "admin123") za pomocą phpMyAdmin. Jak to się robi, zostało pokazane w poprzednich zadaniach (np. zadanie 6)
+2. Za pomocą poleceń SQL znajdujących się w pliku baza.sql utworzyć porzebne tabele. Można te polecenia przekopiować do zakładki SQL w phpMyAdminie albo skorzystać z monitora MySQL (pokazane w zadaniu 6)
